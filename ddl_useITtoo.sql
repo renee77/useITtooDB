@@ -80,7 +80,7 @@ CREATE TABLE `voorraad` (
 );
 
 -- naam als PRIMARY KEY — dit betekent dat twee kortingsacties nooit dezelfde naam mogen hebben. 
---Dat is op zich logisch, maar nadelen zijn:
+-- Dat is op zich logisch, maar nadelen zijn:
 -- Als je de naam wilt wijzigen, moet je alle FK-referenties in andere tabellen ook updaten
 -- VARCHAR(500) als PK is trager dan een INT
 -- Best practice is een aparte kortingsactie_id als PK:
